@@ -1,4 +1,4 @@
-﻿const HaxballJS = require('haxball.js');
+const HaxballJS = require('haxball.js');
 
 HaxballJS().then((HBInit) => {
     var room = HBInit({
