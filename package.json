@@ -1,0 +1,12 @@
+{
+  "name": "futsal-cat-hax",
+  "version": "1.0.0",
+  "description": "Bot de Haxball",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "haxball.js": "^1.0.3"
+  }
+}
