@@ -23,7 +23,7 @@ HaxballJS().then((HBInit) => {
         "blueSpawnPoints": [[180,0],[180,-50],[180,50],[180,100],[180,-100],[368,0]],
         "bg": {"type":"","height":0,"width":0,"color":"404447"},
         "vertices": [
-            {"x":368,"y":171,"traits":["ballArea"]},{"x":0,"y":200,"traits":["kickoffBarrier"]},{"x":0,"y":66,"bcoef":0.15,"traits":["kickoffgoalNet"],"curve":0,"color":"ffffff","pos":[550,-80],"bias":-25},{"x":-368,"y":-171,"bcoef":1,"cMask":["ball"],"traits":["ballArea"],"curve":0,"color":"ffffff","pos":[550,80],"bias":-25}
+            {"x":368,"y":171,"trait":"ballArea"},{"x":0,"y":200,"trait":"kickoffBarrier"},{"x":0,"y":66,"bcoef":0.15,"trait":"kickoffgoalNet","curve":0,"color":"ffffff","pos":[550,-80],"bias":-25},{"x":-368,"y":-171,"bcoef":1,"cMask":["ball"],"trait":"ballArea","curve":0,"color":"ffffff","pos":[550,80],"bias":-25}
         ],
         "segments": [],
         "goals": [
@@ -31,11 +31,11 @@ HaxballJS().then((HBInit) => {
             {"p0":[375,-60],"p1":[375,60],"team":"blue"}
         ],
         "discs": [
-            {"radius":6.4,"invMass":1.5,"pos":[0,0],"color":"FFD500","bcoef":0.4,"cGroup":["ball"],"kick","score"],"damping":0.99},
-            {"radius":5,"pos":[-368,60],"color":"F80000","traits":["goalPost"],"y":60,"x":-368},
-            {"radius":5,"pos":[-368,-60],"color":"F80000","traits":["goalPost"],"y":-60,"x":-368},
-            {"radius":5,"pos":[368,60],"color":"6666FF","traits":["goalPost"],"y":80},
-            {"radius":5,"pos":[368,-60],"color":"6666FF","traits":["goalPost"],"y":-80}
+            {"radius":6.4,"invMass":1.5,"pos":[0,0],"color":"FFD500","bcoef":0.4,"cGroup":["ball"],"damping":0.99},
+            {"radius":5,"pos":[-368,60],"color":"F80000","trait":"goalPost","y":60,"x":-368},
+            {"radius":5,"pos":[-368,-60],"color":"F80000","trait":"goalPost","y":-60,"x":-368},
+            {"radius":5,"pos":[368,60],"color":"6666FF","trait":"goalPost","y":80},
+            {"radius":5,"pos":[368,-60],"color":"6666FF","trait":"goalPost","y":-80}
         ]
     }));
 });
